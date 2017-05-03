@@ -1,5 +1,15 @@
 package com.carrercup;
 
+/*
+a = 0011 1100
+
+b = 0000 1101
+
+a^b = 0011 0001
+Binary XOR Operator copies the bit if it is set in one operand but not both.	
+(A ^ B) will give 49 which is 0011 0001
+*/
+
 public class ArrayReverseNormal {
 	int[] reverse(int[] arr) {
 		for (int i = 0; i < arr.length / 2; i++) {
